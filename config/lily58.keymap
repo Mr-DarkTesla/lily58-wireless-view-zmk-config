@@ -49,10 +49,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp F1  &kp F2    &kp F3  &kp F4          &kp F5            &kp F6                                  &kp F7                 &kp F8             &kp F9           &kp F10    &kp F11   &kp F12
-&trans  &none     &none   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &none      &none     &none
-&trans  &kp EXCL  &kp AT  &kp HASH        &kp DOLLAR        &kp PRCNT                               &kp CARET              &kp AMPS           &kp ASTERISK     &kp GRAVE  &kp PIPE  &kp TILDE
-&trans  &none     &none   &none           &kp UNDER         &kp MINUS             &none     &none   &kp EQUAL              &kp PLUS           &none            &none      &none     &trans
+&kp F1  &kp F2    &kp F3  &kp F4          &kp F5            &kp F6                                  &kp F7                 &kp F8             &kp F9           &kp F10        &kp F11    &kp F12
+&trans  &none     &none   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp BACKSLASH  &kp PIPE   &kp SLASH
+&trans  &kp EXCL  &kp AT  &kp HASH        &kp DOLLAR        &kp PRCNT                               &kp CARET              &kp AMPS           &kp ASTERISK     &kp GRAVE      &kp TILDE  &none
+&trans  &none     &none   &none           &kp MINUS         &kp UNDERSCORE        &none     &none   &kp EQUAL              &kp PLUS           &none            &none          &none      &trans
                           &trans          &trans            &trans                &trans    &trans  &trans                 &trans             &trans
             >;
         };
